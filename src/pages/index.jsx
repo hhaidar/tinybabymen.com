@@ -39,7 +39,7 @@ const IndexPage = () => (
         <Grid item alignVertical>
           <p>tiny baby men is a weekly podcast brought to you by 3 underemployed millenials</p>
 
-          <nav>
+          <nav className="tbm-hero-actions">
             <Button
               icon={AppleIcon}
               href="https://itunes.apple.com/ca/podcast/tiny-baby-men/id1433856483"
