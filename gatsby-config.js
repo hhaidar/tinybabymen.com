@@ -17,17 +17,22 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'tinybabymen',
+        short_name: 'tinybabymen',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#c71014',
+        theme_color: '#c71014',
         display: 'minimal-ui',
         icon: 'src/images/album.jpg' // This path is relative to the root of the site.
       }
-    }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-128989413-1',
+        head: true
+      }
+    },
+    'gatsby-plugin-offline'
   ]
 };
