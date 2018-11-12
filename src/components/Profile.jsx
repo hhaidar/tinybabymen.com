@@ -1,5 +1,7 @@
 import React from 'react';
 
+import atob from '../utils/atob';
+
 import TwitterIcon from '../images/twitter.svg';
 
 const Profile = ({ name, photo, twitter }) => (

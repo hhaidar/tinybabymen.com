@@ -1,5 +1,7 @@
 import React from 'react';
 
+import atob from '../utils/atob';
+
 const Button = ({ icon, children, ...props }) => (
   <a className="tbm-button" {...props} target="_blank">
     {icon && (
